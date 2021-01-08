@@ -1,0 +1,134 @@
+ 
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap");
+
+
+:root {
+  --orange: #f49329;
+  --brown: #341401;
+  --bg2: #ffffff;
+  --bg1: #f7f3f0;
+  --black: #000000;
+  --p: #6b6059;
+}
+
+@media (min-width: 768px) {
+  .x {
+    position: relative;
+    top:-6.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .x{
+top: 0px;
+position: relative;
+  }
+}
+
+.libre {
+  font-family: "Libre Baskerville", serif;
+  color: var(--brown);
+}
+.btn-primary {
+  color: #fff;
+  background-color: #341401;
+  border-color: #341401;
+}
+.black {
+  color: var(--black);
+}
+.cb{
+  color: #341401;
+}
+.brown{
+  color: #341401;
+  font-size: 20px;
+  font-weight:bold;
+}
+.brown2{
+  color: #341401;
+  font-size: 20px;
+  font-weight:bold;
+  background-color: #f7f3f0;
+}
+.p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--p);
+  font-size: 16;
+}
+a: hover {
+  color: green;
+}
+.h1 {
+  font-size: 50;
+}
+.h2{
+  font-size: 38;
+}
+.bg1 {
+  background-color: var(--bg1);
+  max-width: 100%;
+}
+.bg2 {
+  background-color: var(--bg2);
+  max-width: 100%;
+}
+.my-button {
+  background-color: var(--orange);
+}
+/* .container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+} */
+.mt-6 {
+  margin-top: 7rem;
+}
+.mb-6 {
+    margin-bottom: 7rem;
+    }
+.navbar.transparent {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: -webkit-gradient(
+    linear,
+    50% 0%,
+    50% 100%,
+    color-stop(0%, rgba(0, 0, 0, 0)),
+    color-stop(100%, rgba(0, 0, 0, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.lesson:hover {
+  filter: sepia(3);
+}
+.container3 {
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 20px;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.nav-link:hover{
+  color:#341401;
+}
+.t{
+  background: url(images/Hero\ img.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #f7f3f0;
+
+}
